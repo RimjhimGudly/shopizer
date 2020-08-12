@@ -17,7 +17,7 @@ pipeline {
 	      steps {
 		sh '''
 			  cd sm-shop
-			  docker build -f "Dockerfile" -t rimjhimdockerhub/shopizer-app:latest . 
+			  docker build -f "Dockerfile" rimjhimdockerhub/shopizer-app:latest . 
 		'''
       }
     }
